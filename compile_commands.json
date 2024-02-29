@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/wmk/univ/opengl/build",
+  "command": "/usr/bin/cc -I/home/wmk/univ/opengl/extern -flto=auto -fno-fat-lto-objects -Ofast -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles/OGL.dir/extern/glad.c.o -c /home/wmk/univ/opengl/extern/glad.c",
+  "file": "/home/wmk/univ/opengl/extern/glad.c",
+  "output": "CMakeFiles/OGL.dir/extern/glad.c.o"
+},
+{
+  "directory": "/home/wmk/univ/opengl/build",
+  "command": "/usr/bin/c++ -I/home/wmk/univ/opengl/extern -std=c++20 -flto=auto -fno-fat-lto-objects -Ofast -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles/OGL.dir/extern/stb_image.cpp.o -c /home/wmk/univ/opengl/extern/stb_image.cpp",
+  "file": "/home/wmk/univ/opengl/extern/stb_image.cpp",
+  "output": "CMakeFiles/OGL.dir/extern/stb_image.cpp.o"
+},
+{
+  "directory": "/home/wmk/univ/opengl/build",
+  "command": "/usr/bin/c++ -I/home/wmk/univ/opengl/extern -std=c++20 -flto=auto -fno-fat-lto-objects -Ofast -Wall -Wextra -Wpedantic -Wconversion -o CMakeFiles/OGL.dir/src/main.cpp.o -c /home/wmk/univ/opengl/src/main.cpp",
+  "file": "/home/wmk/univ/opengl/src/main.cpp",
+  "output": "CMakeFiles/OGL.dir/src/main.cpp.o"
+}
+]
