@@ -1,4 +1,4 @@
-#include <glad.h>
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 #include <glm/fwd.hpp>
@@ -6,7 +6,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <iostream>
-#include <stb_image.hpp>
+#include <stb_image.h>
 
 #include "ShaderClass.hpp"
 
