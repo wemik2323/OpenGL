@@ -5,8 +5,8 @@ workspace "OpenGL tutorial"
     architecture "x64"
 
     project "OGL"
-        kind "WindowedApp"
-        -- kind "ConsoleApp"
+        -- kind "WindowedApp"
+        kind "ConsoleApp"
         language "C++"
         cppdialect "C++20"
 
@@ -17,9 +17,9 @@ workspace "OpenGL tutorial"
         files { "%{prj.location}/**.hpp", "%{prj.location}/**.cpp" }
 
         filter { "system:windows" }
-            -- links { "" }
+            -- links { "user32", "kernel32", "gdi32" }
             warnings "Extra" -- or "High"/"Everything"?
-            -- linkoptions { "/IGNORE:4099" }
+            -- linkoptions { "/IGNORE:4098" }
 
         filter { "system:linux" }
             -- links { "" }
